@@ -20,6 +20,10 @@ a, a:visited {
 
 button {
   border: 0;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 5px;
 }
 
 .text-size32 {
@@ -121,11 +125,9 @@ nav {
 }
 
 .btns-container button {
-  border-radius: 30px;
   width: 140px;
   height: 50px;
-  font-size: 16px;
-  padding: 5px;
+
 }
 
 .btn-shop {
@@ -159,4 +161,6 @@ nav {
   top: 95px;
   right: 10px;
 }
+
+
 
