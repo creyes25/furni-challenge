@@ -3,7 +3,7 @@ html, body {
   padding: 0;
 }
 
-h2 {
+h2, h3 {
   margin: 0;
 }
 
@@ -44,6 +44,14 @@ button {
 
 .yellow-background {
   background-color: #F9BF29;
+}
+
+.b-red {
+  border: 1px solid red;
+}
+
+.b-blue {
+  border: 1px solid blue;
 }
 
 header {
@@ -162,5 +170,8 @@ nav {
   right: 10px;
 }
 
+.shop-container {
+  margin: auto;
+}
 
 
