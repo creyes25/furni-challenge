@@ -3,8 +3,12 @@ html, body {
   padding: 0;
 }
 
-h2, h3 {
+h2, h3, h4 {
   margin: 0;
+}
+
+p {
+  color: #6A6A6A;
 }
 
 ul {
@@ -24,6 +28,10 @@ button {
   font-size: 16px;
   line-height: 28px;
   padding: 5px;
+}
+
+.text-size14 {
+  font-size: 14px;
 }
 
 .text-size32 {
@@ -48,6 +56,10 @@ button {
 
 .yellow-background {
   background-color: #F9BF29;
+}
+
+.light-gray-bg {
+  background-color: #EFF2F1;
 }
 
 .b-red {
@@ -194,10 +206,9 @@ nav {
 }
 
 .material-info p {
-  font-size: 14px;
   margin: 1.5em auto 1em;
-  color: #6A6A6A;
   padding: 10px 12px 10px 0;
+  line-height: 24px;
 }
 
 .btn-material {
@@ -260,6 +271,7 @@ nav {
   line-height: 24px;
   font-weight: 700;
 }
+
 
 
 
