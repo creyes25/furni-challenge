@@ -30,6 +30,10 @@ button {
   font-size: 32px;
 }
 
+.text-size34 {
+  font-size: 34px;
+}
+
 .max-width {
   max-width: 1200px;
 }
@@ -135,7 +139,6 @@ nav {
 .btns-container button {
   width: 140px;
   height: 50px;
-
 }
 
 .btn-shop {
@@ -170,8 +173,94 @@ nav {
   right: 10px;
 }
 
-.shop-container {
-  margin: auto;
+.shop {
+  padding: 1px 0 20px;
 }
+
+.shop-container {
+  margin: 10px auto 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+.material-info {
+  width: 40%;
+  margin-top: 1.5em;
+}
+
+.material-info h2 {
+  color: #2F2F2F;
+}
+
+.material-info p {
+  font-size: 14px;
+  margin: 1.5em auto 1em;
+  color: #6A6A6A;
+  padding: 10px 12px 10px 0;
+}
+
+.btn-material {
+  width: 122px;
+  height: 50px;
+  background-color: #2F2F2F;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.furniture-container {
+  width: 72%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7em;
+  gap: 1em;
+}
+
+.furni-card {
+  display: flex;
+  flex-direction: column;
+  gap: calc(3.5em - 25px);
+  text-align: center;
+  width: 296px;
+  height: 350px;
+  border-radius: 20px;
+  /* background: rgba(53, 115, 110, 0.10); */
+  padding: 5px 5px;
+  padding-bottom: 30px;
+}
+
+.card-img {
+  /* border: 1px solid red; */
+  width: 200px;
+  height: 240px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-info {
+  margin: 0 auto 1.1em;
+}
+
+.card-title {
+  font-size: 16px;
+  color: #2F2F2F;
+  line-height: 24px;
+  /* font-weight: 600; */
+}
+
+.card-price {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+
 
 
