@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: 'Delicious Handrawn', cursive;
+  font-family: 'DM Sans', sans-serif;
 }
 
 h2, h3, h4 {
@@ -28,6 +30,8 @@ button {
   font-size: 16px;
   line-height: 28px;
   padding: 5px;
+  font-weight: 500;
+  letter-spacing: .052em;
 }
 
 .text-size14 {
@@ -88,6 +92,11 @@ nav {
   margin-top: 25px;
 }
 
+.logo h2 {
+  font-weight: 500;
+  letter-spacing: .05em;
+}
+
 .logo span {
   color: rgba(255, 255, 255, 0.28);
 }
@@ -101,6 +110,7 @@ nav {
 .nav-links ul {
   align-items: center;
   opacity: 0.5;
+  font-weight: 500;
 
 }
 
@@ -146,6 +156,8 @@ nav {
 
 .header-title h2 {
   font-size: 52px;
+  font-weight: 600;
+  letter-spacing: .045em;
 }
 
 .btns-container button {
@@ -203,6 +215,7 @@ nav {
 
 .material-info h2 {
   color: #2F2F2F;
+  font-weight: 600;
 }
 
 .material-info p {
@@ -262,7 +275,7 @@ nav {
   font-size: 16px;
   color: #2F2F2F;
   line-height: 24px;
-  /* font-weight: 600; */
+  font-weight: 600;
 }
 
 .card-price {
@@ -301,7 +314,8 @@ nav {
 
 .choose-title p {
   line-height: 24px;
-  padding-right: 9em;
+  padding-right: 5em;
+  font-weight: 400;
 }
 
 .choose-details {
@@ -337,6 +351,7 @@ nav {
 }
 
 .choose-column p {
+  font-size: 14px;
   line-height: 22px;
   padding-right: 1em;
 }
@@ -362,4 +377,105 @@ nav {
   position: absolute;
   left: -9px;
   top: -14px;
+}
+
+.interior-design {
+  padding: 10px 0 80px;
+}
+
+.interior-containter {
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 10px;
+  padding: 10px;
+  gap: 2em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interior-imgs {
+  width: 80%;
+  position: relative;
+}
+
+
+.interior-couch {
+  width: 424px;
+  height: 551px;
+  border-radius: 15px 0 0 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.interior-stool {
+  width: 305px;
+  height: 388px;
+  position: absolute;
+  bottom: -60px;
+  left: 355px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.interior-lamp {
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  right: 20px;
+  border-radius: 15px;
+}
+
+.interior-dots {
+  width: 262px;
+  height: 176px;
+  position: absolute;
+  top: -53px;
+  left: -113px;
+}
+
+.design-content {
+  flex-direction: column;
+  gap: 1em;
+  width: 60%;
+}
+
+.design-title {
+  margin-top: 1em;
+}
+
+.design-title h3 {
+  line-height: 41px;
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+
+.design-title p {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 4.5em;
+  margin-top: 25px;
+}
+
+.design-list ul {
+  gap: 2em;
+  margin: 10px 2px 10px;
+}
+
+.design-list ul:last-child {
+  margin-top: 18px;
+}
+
+.design-list ul li {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #6A6A6A; 
+  padding-left: 8px;
+}
+
+.design-list ul li::marker{
+  content: 'º';
+  color: #3B5D50;
+  font-weight: 800;
 }
