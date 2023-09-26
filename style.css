@@ -516,9 +516,6 @@ nav {
   top: -25px;
 }
 
-.chair-details h3 {
-  /* font-weight: 700; */
-}
 
 .chair-details {
   line-height: 22px;
@@ -531,6 +528,10 @@ nav {
 .btn-readmore {
   color: #6A6A6A;
   font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  border: none;
+  background: none;
 }
 
 .testimonials, .blog {
