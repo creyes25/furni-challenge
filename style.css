@@ -533,7 +533,7 @@ nav {
   font-weight: 700;
 }
 
-.testimonials, .blog, .newsletter {
+.testimonials, .blog {
   padding: 10px 0 80px;
 }
 
@@ -615,6 +615,9 @@ nav {
   color: #555555;
 }
 
+.newsletter {
+}
+
 .newsletter-container {
   justify-content: space-between;
   gap: 5em;
@@ -685,5 +688,9 @@ nav {
   height: 100%;
   position: absolute;
   bottom: 100px;
+}
 
+.furni-about-container {
+  margin: auto;
+  padding: 10px 0;
 }
