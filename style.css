@@ -66,14 +66,6 @@ button {
   background-color: #EFF2F1;
 }
 
-.b-red {
-  border: 1px solid red;
-}
-
-.b-blue {
-  border: 1px solid blue;
-}
-
 header {
   background-color: #3B5D50;
   margin: 0;
@@ -516,7 +508,6 @@ nav {
   top: -25px;
 }
 
-
 .chair-details {
   line-height: 22px;
 }
@@ -616,9 +607,6 @@ nav {
   color: #555555;
 }
 
-.newsletter {
-}
-
 .newsletter-container {
   justify-content: space-between;
   gap: 5em;
@@ -626,7 +614,7 @@ nav {
 
 .subscription {
   padding: 10px 10px 10px 0;
-  width: 50%;
+  width: 55%;
   margin-top: 4.5em;
 }
 
@@ -668,7 +656,6 @@ nav {
   border: 1px solid #C4C4C4;
   background-color: #35736E;
   padding: 10px;
-
 }
 
 .btn-subscribe  img {
@@ -689,9 +676,55 @@ nav {
   height: 100%;
   position: absolute;
   bottom: 100px;
+  right: -70px;
 }
 
 .furni-about-container {
   margin: auto;
   padding: 10px 0;
+}
+
+.furni-about-container h2 {
+  font-weight: 600;
+  color: #2F2F2F;
+}
+
+.about-links {
+  justify-content: space-between;
+}
+
+.about-links p {
+  width: 370px;
+  line-height: 24px;
+}
+
+.links-container {
+  justify-content: space-between;
+  width: 55%;
+}
+
+.links a {
+  line-height: 28px;
+  font-size: 14px;
+  color: #6A6A6A;
+}
+
+.socials {
+  margin-top: 2em;
+  gap: 1em;
+}
+
+.social-logo {
+  width: 42px;
+  height: 42px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-logo img {
+  width: 45%;
 }
