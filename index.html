@@ -3,16 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Delicious+Handrawn&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   <link rel="stylesheet" href="style.css">
+
+
   <title>Furniture Challenge</title>
 </head>
 
 <body>
+  
   <header>
     <div class="header-container max-width">
       <nav class="flex">
@@ -68,6 +80,9 @@
             <h3 class="card-title">Nordic CHAIR</h3>
             <h3 class="card-price">$50.00</h3>
           </div>
+          <div class="add-btn">
+            <img src="https://i.ibb.co/vVcvMSS/Group-3.png" alt="">
+          </div>
         </div>
         <div class="furni-card">
           <div class="card-img">
@@ -77,6 +92,9 @@
             <h3 class="card-title">Kruzo Aero Chair</h3>
             <h3 class="card-price">$78.00</h3>
           </div>
+          <div class="add-btn">
+            <img src="https://i.ibb.co/vVcvMSS/Group-3.png" alt="">
+          </div>
         </div>
         <div class="furni-card">
           <div class="card-img">
@@ -85,6 +103,9 @@
           <div class="card-info">
             <h3 class="card-title">Ergonomic Chair</h3>
             <h3 class="card-price">$43.00</h3>
+          </div>
+          <div class="add-btn">
+            <img src="https://i.ibb.co/vVcvMSS/Group-3.png" alt="">
           </div>
         </div>
       </div>
@@ -209,23 +230,52 @@
   </section>
 
   <section class="testimonials light-gray-bg">
-    <div class="testimonials-container max-width">
-      <div class="testimonials-info">
-        <h2>Testimonials</h2>
-        <p>‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
-        </p>
-      </div>
-      <div class="testimonials-user">
-        <div class="user-img">
-          <img src="https://i.ibb.co/G92Mj2P/person-1-1.png" alt="User Photo">
+    <h2 class="text-size34">Testimonials</h2>
+
+    <div class="carousel max-width">
+      <div class="testimonials-container">
+        <div class="testimonials-info flex">
+          <button class="arrow previous">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 10 20" fill="none">
+              <path d="M9 18.43L1 10.1164L9 1.80273"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </button>
+          <p>‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+          </p>
+          <button class="arrow next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="20" viewBox="0 0 10 20" fill="none">
+              <path d="M1 18.43L9 10.1164L1 1.80273" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </button>
         </div>
-        <div class="user-info">
-          <h3>Michelle Anna </h3>
-          <p>CEO, Co-Founder, XYZ Inc.</p>
+        <div class="testimonials-user">
+          <div class="user-img">
+          </div>
+          <div class="user-info">
+            <h3>Emily Ryans </h3>
+            <p>CEO, Co-Founder, XYZ Inc.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="testimonials-container">
+        <div class="testimonials-info">
+          <p>‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’
+          </p>
+        </div>
+        <div class="testimonials-user">
+          <div class="user-img">
+          </div>
+          <div class="user-info">
+            <h3>Emily Ryans </h3>
+            <p>CEO, Co-Founder, XYZ Inc.</p>
+          </div>
         </div>
 
-      </div>
+      </div> -->
+
     </div>
+      
   </section>
 
   <section class="blog light-gray-bg">
