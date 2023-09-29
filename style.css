@@ -377,7 +377,6 @@ nav {
 
 .choose-column img {
   width: 31px;
-  height: 26px;
 }
 
 .bg-eliptical {
@@ -449,7 +448,7 @@ nav {
 .interior-couch {
   width: 424px;
   height: 551px;
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px;
   position: relative;
   z-index: 1;
 }
@@ -459,7 +458,7 @@ nav {
   height: 388px;
   position: absolute;
   bottom: -60px;
-  left: 355px;
+  right: 0;
   border-radius: 20px;
   z-index: 1;
 }
@@ -468,8 +467,9 @@ nav {
   width: 210px;
   height: 210px;
   position: absolute;
-  right: 20px;
+  right: 0px;
   border-radius: 15px;
+  z-index: 3;
 }
 
 .interior-dots {
