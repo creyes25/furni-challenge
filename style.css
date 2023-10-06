@@ -254,7 +254,7 @@ nav {
   border-radius: 20px;
   padding: 5px 5px;
   padding-bottom: 30px;
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
 }
 
 .card-img {
@@ -315,16 +315,16 @@ nav {
 }
 
 .furni-card:hover .card-img {
-  transform: translateY(-70px);
+  transform: scale(1.01) translateY(-70px);
 }
 
 .furni-card:hover .card-img img {
   filter: drop-shadow(6px 8px 10px rgba(0, 0, 0, 0.423));
-  transform: translateY(-8px)
+  transform: scale(1.1) translateY(-15px)
 }
 
 .furni-card:hover .card-info {
-  transform: translateY(-98px);
+  transform: scale(1.09) translateY(-96px);
 } 
 
 .furni-card:hover .add-btn {
